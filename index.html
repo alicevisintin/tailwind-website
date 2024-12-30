@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gingerbread Coffee House</title>
+    <link rel="icon" type="image/x-icon" href="resources/icon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .background-image {
+            background-image: url('resources/cafe.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header class="background-image h-screen flex flex-col justify-center text-center text-white">
+        <div class="bg-black bg-opacity-50 p-8 height:100vh">
+            <h1 class="text-5xl font-bold mb-4">Gingerbread Coffee House</h1>
+            <p class="text-lg">Savor the best coffee and pastries in town</p>
+        </div>
+    </header>
+
+    <!-- About Us Section -->
+    <section class="py-16 bg-white text-center">
+        <h2 class="text-3xl text-sky-600 font-semibold mb-4">About Us</h2>
+        <p class="text-lg max-w-4xl mx-auto">
+            At Gingerbread Coffee House, we believe in serving high-quality, freshly brewed coffee along with delicious,
+            handmade
+            pastries. Our mission is to create a warm, inviting atmosphere where you can relax, catch up with friends,
+            or get some work done while enjoying your favorite coffee drinks.
+        </p>
+    </section>
+
+
+    <!-- Menu Section -->
+    <section class="py-16 bg-white text-center">
+        <h2 class="text-3xl text-orange-500 font-semibold mb-8">Our Menu</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white shadow-lg rounded-lg p-6">
+                <h3 class="text-xl font-semibold mb-2">Espresso</h3>
+                <p class="text-gray-500">Rich and bold, made with high-quality beans</p>
+                <p class="mt-4 text-lg font-semibold">$3.00</p>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg p-6">
+                <h3 class="text-xl font-semibold mb-2">Cappuccino</h3>
+                <p class="text-gray-500">Smooth espresso with steamed milk and foam</p>
+                <p class="mt-4 text-lg font-semibold">$4.50</p>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg p-6">
+                <h3 class="text-xl font-semibold mb-2">Latte</h3>
+                <p class="text-gray-500">Espresso with steamed milk and a hint of sweetness</p>
+                <p class="mt-4 text-lg font-semibold">$4.00</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-16 bg-orange-700 text-center">
+        <h2 class="text-3xl font-semibold text-white mb-4">Contact Us</h2>
+        <p class="text-lg text-white mb-6">We'd love to hear from you!</p>
+        <p class="mb-2 text-white">📍 Laugavegur 32, 101 Reykjavík</p>
+        <p class="mb-2 text-white">📞 5513421</p>
+        <p class="mb-2 text-white">✉️ email@gingerbread-ch.com</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-black text-white py-6 text-center">
+        <p>&copy; 2024 Gingerbread Coffee House. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
